@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2ZEeXTyyQHgLxYW.00c7040ecf57:C6Kitoez50iJp69KImr6@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/hMU3Ebwx9sEPyNAWuMHb3a?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663606954165/hMU3Ebwx9sEPyNAWuMHb3a",
+    "access_key_id": "ASIAZV3A2ECZHCAFZEZW",
+    "secret_access_key": "MmMGi4I1HWQ2h6xXIhz5WUECMZpqMtiGzgJmz/HL",
+    "session_token": "IQoJb3JpZ2luX2VjEN///////////wEaCXVzLWVhc3QtMSJHMEUCIQC3qM5Uxxs+2xONtkbwrvbYRTxJOGDOudvfBcCaeNRvLwIga5+9g33pyC5wyqvVbpFl63pFkCvSaRs9GmTiAAxZqGcq/wMIqP//////////ARAEGgw2NjUzODYwOTg4NjYiDCsk4hbGoythp2bjUirTA7iIJ3IFWgdsxtzPZFxC8DWs1b+TL5acDOrsaGHyAWS0waNOQq5z9QVyjZzwVXtLgrQ0mNFgL7V/cNykpNvuMAunyP91O23VkTEOBF1mxN6hbCiSjK1gNzIPphHvTWKltjAu80akTNu72APGi3pykr5+0EdcNmZE83Q+MZ6qlhYQMe5zdDbD7nHfx/5bjwymbSm4UQ81hzTKanLWIHKT2J1NfPMPJJrspX2ieNOcCmd1g+3bUYeTS2j/HBe1SF+KDDbmBiqv+XdOfvFqCURaUuZih0Rqh4mG+L/pziPAICcC3kiIvZeMNr55lF8dEA64tB9wfutPVosJx7+XL9Gpq138OZNn5bu0uV/NYN+ll/Z/JAcus7XVcP0o+Xl/IJ9kG7XFl3u6JlH+G2N9eXHFOIUEBTJCJJXy1IIApaHzgm+WgJl/Rh8ZPylP2xwL5a204d/MDv16Wslcfsv41dXs5i3bp3OzptKNADVEiqCoHym76EHB9NyHXAb3MLglwTvdpwanNucjX7ouBBMA51M0Rn7O9pWqp10jGaVFs7FS0T1hNApo+FVrL0JQRR/MK3PAisyX3LUu5669ARbguTa3HvFbSk5o3J9Qb0lxwCBtFPQSYWSTMNbK39AGOp0BN84bdG56lWTm/k15WYFLXe1IrWWXO9OrT7anhpU7+CpJpZOoXegPVmt7d/WBjY6FuinMshOP5ZRdoJME4w68tudMAG31ZvVsxfBu2LC7Y+GD7s28fKntWPXM18Ljvf3O2ndM47Ms55Tesol5bUHlZr3vdcSA8wdH4bxpi2uetAKV91oXOfrLNFH4o4wplVKG+MkUO19RebkcPmffFw==",
+    "expiration": "2026-05-28T18:48:54.000Z"
+  },
+  "name": "nutrition-label-platform",
+  "path": "/home/ubuntu/nutrition-label-platform",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "XwpmxrYuU9g5FQrGKzDSc8",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "TpWLcJthMxZxg8W7hxVPpy",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Ling Jimmy",
+    "OWNER_OPEN_ID": "29YzuD5PBY8qrjmvoGfz7G",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "9a033443-7d71-40ab-bd7f-f9c028ce2f9e",
+    "VITE_APP_ID": "hMU3Ebwx9sEPyNAWuMHb3a",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "營養標籤管理平台",
+    "VITE_FRONTEND_FORGE_API_KEY": "WXD778aLTGuHuVoNpN3UKM",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
